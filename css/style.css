@@ -51,7 +51,6 @@ body {
 nav {
   width: 100%;
   background-color: transparent;
-  margin-bottom: 2px;
 }
 
 nav:hover {
@@ -88,7 +87,7 @@ nav a {
   display: block; /*Toute la surface sera cliquable*/
   text-decoration: none;
   color: black;
-  border-bottom: 2px solid transparent; /*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
+  border-bottom: 0px solid transparent; /*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
   padding: 15px 0px;
 }
 
@@ -96,7 +95,7 @@ nav a:hover {
   color: #0065fc;
   border-top: 3px solid #0065fc;
   cursor: pointer;
-  padding: 15px 0px;
+  padding: 12px 0px;
 }
 
 .conteneur-section-zero {
