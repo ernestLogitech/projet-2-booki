@@ -22,8 +22,6 @@ body {
 .main-container {
   width: 100%;
   max-width: 1440px;
-  padding: 0 50px;
-  box-sizing: border-box;
 }
 
 .entete {
@@ -41,6 +39,7 @@ body {
 .nav {
   width: 100%;
   display: flex;
+  margin: 1px 0px 0px 0px;
 }
 
 .logo {
@@ -84,6 +83,7 @@ nav ul::after {
 }
 
 nav a {
+  position: relative;
   display: block; /*Toute la surface sera cliquable*/
   text-decoration: none;
   color: black;
